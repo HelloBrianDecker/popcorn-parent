@@ -3,10 +3,11 @@ import statsmodels.api as sm
 import seaborn as sns
 import SupportAlgorithms as sa
 import GraphHyperparameters as graph
-
 sns.set()
 
 
+
+print('Logistic Regression')
 class LogisticRegression:
     def __init__(self, target_data, train_data):
         self.target_data = target_data

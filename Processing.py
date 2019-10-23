@@ -1,13 +1,8 @@
-import Outliers as out
-import Views as view
-import Reformat as form
+from Preprocess import Reformat as form, Standardize as st, Outliers as out, OLS, Split_Data as sd, Views as view, \
+    SetTarget as tar
 import ClusterAnalysis as cluster
-import Standardize as st
-import SetTarget as tar
-import Split_Data as sd
 import pandas as pd
-import OLS
-from NullValues import null_count_columns, null_count_rows
+from Preprocess.NullValues import null_count_columns, null_count_rows
 
 
 class Processing:

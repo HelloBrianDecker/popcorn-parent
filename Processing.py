@@ -1,8 +1,8 @@
-from Preprocess import Reformat as form, Standardize as st, Outliers as out, OLS, Split_Data as sd, Views as view, \
+from preprocess import Reformat as form, Standardize as st, Outliers as out, OLS, Split_Data as sd, Views as view, \
     SetTarget as tar
 import ClusterAnalysis as cluster
 import pandas as pd
-from Preprocess.NullValues import null_count_columns, null_count_rows
+from preprocess.NullValues import null_count_columns, null_count_rows
 
 
 class Processing:

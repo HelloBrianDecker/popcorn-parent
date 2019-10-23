@@ -1,8 +1,8 @@
 from Processing import *
 from PreprocessingMarkers import *
-from LogisticRegression import *
-from LinearRegression import *
-from NeuralNetwork import *
+from learning_algorithms.LogisticRegression import *
+from learning_algorithms.LinearRegression import *
+from learning_algorithms.NeuralNetwork import *
 import pandas as pd
 
 

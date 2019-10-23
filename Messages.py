@@ -10,7 +10,7 @@ messages = {
 
             'options':  'Options:\n'
                         '0: Turn On or Off AutoRun - Off by Default\n'
-                        '1: Preprocess Data\n'
+                        '1: preprocess Data\n'
                         '2: Manipulate Data\n'
                         '3: Choose Algorithm\n'
                         'X: Exit\n',

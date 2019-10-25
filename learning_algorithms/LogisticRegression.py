@@ -1,8 +1,8 @@
 import numpy as np
 import statsmodels.api as sm
 import seaborn as sns
-import SupportAlgorithms as sa
-import GraphHyperparameters as graph
+from learning_algorithms.support_algorithms import SupportAlgorithms as sa, GraphHyperparameters as graph
+
 sns.set()
 
 
